@@ -65,6 +65,7 @@ while(z<n){
 console.log("-------PARTE 4-------");
 let N = 5
 let X = 0
+
 while(X<N){
      
     X++;
@@ -72,10 +73,12 @@ while(X<N){
 } 
 console.log("suma = "+ X)
 
-funtion sum(N,X){
-    if (X<N){
+function sum(N,X){
+    while (X<N){
+        X=X+1;
 
     }
     return 
+
 
 }
