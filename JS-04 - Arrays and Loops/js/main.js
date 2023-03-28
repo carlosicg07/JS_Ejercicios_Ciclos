@@ -19,16 +19,22 @@ for (personas=0; personas<names.length; personas++){
 }
 
 //--------------------------------------------------------------------
-/*
+
 console.log("-----PATERN EJ.2-----");
-let sign="*";
-for(sign="*"; sign<)
+var x, y, sign
+for (x=1; x<=6; x++){
+    for(y=1; y<x; y++){
+        sign=sign+("*");
+    }
+    console.log(sign);
+    sign='';
+}
 
-
+/*
 //--------------------------------------------------------------------
 console.log("-----LOOPS EJ.3-----");
-let xValue = 10;
-while (xValue < xValue.value){
+let xv = 10;
+while (xv < xValue.value){
     console.log()
 }
 
